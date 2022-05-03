@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "thealcoholicsmod:crack_pipe_filled"
+    },
+    "title": "Is it good or bad ?",
+    "description": "Consume your crafted crack",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "thealcoholicsmod:crack_pipe",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "thealcoholicsmod:crack_pipe_filled"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

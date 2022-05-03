@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thealcoholicsmod:cocaine_raw"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    }
+
+  ],
+
+  "result": {
+    "item": "thealcoholicsmod:crack"
+
+  }
+}

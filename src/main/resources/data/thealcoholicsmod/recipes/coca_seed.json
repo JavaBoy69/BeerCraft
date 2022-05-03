@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thealcoholicsmod:cutted_coca_leafs"
+    }
+  },
+  "result": {
+    "item": "thealcoholicsmod:coca_seed"
+  }
+}

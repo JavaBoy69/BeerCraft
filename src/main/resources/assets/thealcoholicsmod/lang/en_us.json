@@ -1,0 +1,32 @@
+{
+  "item.thealcoholicsmod.joint": "Joint",
+  "item.thealcoholicsmod.weed_cookie": "Weed Cookie",
+  "item.thealcoholicsmod.weed_leaf": "Weed Leaf",
+  "item.thealcoholicsmod.cocaine_leaf": "Coca Leaf",
+  "item.thealcoholicsmod.coca_seed": "Coca Seed",
+  "item.thealcoholicsmod.cocaine_raw": "Raw Cocaine",
+  "item.thealcoholicsmod.knife": "Cutting Knife",
+  "item.thealcoholicsmod.canister_empty": "Empty Canister",
+  "item.thealcoholicsmod.canister_with_acid": "Canister with Acid",
+  "item.thealcoholicsmod.coca_dry": "Dry Coca",
+  "item.thealcoholicsmod.cutted_coca_leafs": "Cutted Coca Leaf",
+  "item.thealcoholicsmod.cocaine_with_paper": "Consumable Cocaine",
+  "item.thealcoholicsmod.crack": "Crack",
+  "item.thealcoholicsmod.crack_pipe": "Crack Pipe",
+  "item.thealcoholicsmod.crack_pipe_filled": "Pipe filled with Crack",
+
+
+
+
+
+  "block.thealcoholicsmod.weed_package": "Weed Package",
+  "block.thealcoholicsmod.weed_crop": "Weed",
+  "block.thealcoholicsmod.weed_bush": "Weed Plant",
+  "block.thealcoholicsmod.coca_crop": "Coca Seed",
+  "block.thealcoholicsmod.coca_bush": "Coca Plant",
+  "block.thealcoholicsmod.cocaine_package": "Cocaine Package",
+
+
+
+  "itemGroup.alcoholicsmodTab": "The Alcoholics Mod"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "X": {
+      "item": "thealcoholicsmod:weed_leaf"
+    }
+  },
+  "result": {
+    "item": "thealcoholicsmod:weed_cookie",
+    "count": 4
+  }
+}

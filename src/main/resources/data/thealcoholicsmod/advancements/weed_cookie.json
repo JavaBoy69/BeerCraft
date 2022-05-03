@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon":{
+      "item":"thealcoholicsmod:weed_cookie"
+    },
+    "title": "The green cookie",
+    "description": "Make some Weed Cookies and try them out",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true
+
+  },
+  "parent": "thealcoholicsmod:weed",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+          {
+            "items":[
+              "thealcoholicsmod:weed_cookie"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

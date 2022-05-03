@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon":{
+      "item":"thealcoholicsmod:joint"
+    },
+    "title": "The path of getting high...",
+    "description": "Craft a joint",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true
+
+  },
+  "parent": "thealcoholicsmod:weed",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+          {
+            "items":[
+              "thealcoholicsmod:joint"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

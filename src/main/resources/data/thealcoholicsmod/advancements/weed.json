@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon":{
+      "item":"thealcoholicsmod:weed_leaf"
+    },
+    "title": "The Green Leaf",
+    "description": "Find a weed plant and get a leaf from it.",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "background": "thealcoholicsmod:textures/block/weed_package.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+          {
+            "items":[
+              "thealcoholicsmod:weed_leaf"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

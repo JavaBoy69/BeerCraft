@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "thealcoholicsmod:joint"
+    },
+    "title": "\"Ich bin so high Bruder, ich fass die Wolken an !\"",
+    "description": "Smoke a joint and enjoy yourself",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "thealcoholicsmod:joint",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "thealcoholicsmod:joint"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon":{
+      "item":"thealcoholicsmod:cocaine_with_paper"
+    },
+    "title": "Some serious stuff",
+    "description": "Combine some raw cocaine with a piece of paper",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true
+
+  },
+  "parent": "thealcoholicsmod:cocaine_raw",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+          {
+            "items":[
+              "thealcoholicsmod:cocaine_with_paper"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

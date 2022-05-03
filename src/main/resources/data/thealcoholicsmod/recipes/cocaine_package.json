@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thealcoholicsmod:cocaine_raw"
+    }
+  },
+  "result": {
+    "item": "thealcoholicsmod:cocaine_package"
+  }
+}

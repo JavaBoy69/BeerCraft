@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "thealcoholicsmod:block/weed_stage7"
+  }
+}

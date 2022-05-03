@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thealcoholicsmod:cocaine_raw"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+
+  ],
+
+  "result": {
+    "item": "thealcoholicsmod:cocaine_with_paper"
+
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "crop": "thealcoholicsmod:block/weed_bush"
+  }
+}

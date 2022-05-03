@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon":{
+      "item":"thealcoholicsmod:cocaine_raw"
+    },
+    "title": "White Gold",
+    "description": "Make yourself some clean cocaine powder",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true
+
+  },
+  "parent": "thealcoholicsmod:cocaine",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+          {
+            "items":[
+              "thealcoholicsmod:cocaine_raw"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

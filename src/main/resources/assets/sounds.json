@@ -1,0 +1,9 @@
+{
+  "smoking_joint": {
+    "category": "items",
+    "subtitle": "thealcoholicsmod.smoking_joint",
+    "sounds": [
+      "thealcoholicsmod:smoking_joint"
+    ]
+  }
+}

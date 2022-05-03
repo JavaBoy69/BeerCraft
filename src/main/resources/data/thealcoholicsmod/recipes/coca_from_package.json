@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thealcoholicsmod:cocaine_package"
+    }
+  ],
+  "result": {
+    "item": "thealcoholicsmod:cocaine_raw",
+    "count": 9
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "thealcoholicsmod:block/coca_bush"
+  }
+}

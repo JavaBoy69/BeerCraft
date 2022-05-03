@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thealcoholicsmod:crack"
+    },
+    {
+      "item": "thealcoholicsmod:crack_pipe"
+    }
+
+  ],
+
+  "result": {
+    "item": "thealcoholicsmod:crack_pipe_filled"
+
+  }
+}

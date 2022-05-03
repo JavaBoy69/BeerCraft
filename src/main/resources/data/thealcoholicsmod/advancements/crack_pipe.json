@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon":{
+      "item":"thealcoholicsmod:crack_pipe_filled"
+    },
+    "title": "Wannabe cocaine consumer",
+    "description": "Put some crack in the crack pipe ",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true
+
+  },
+  "parent": "thealcoholicsmod:crack",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+          {
+            "items":[
+              "thealcoholicsmod:crack_pipe_filled"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

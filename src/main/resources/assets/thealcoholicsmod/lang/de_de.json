@@ -1,0 +1,34 @@
+{
+  "item.thealcoholicsmod.joint": "Bubatz",
+  "item.thealcoholicsmod.weed_cookie": "Cannabiskeks",
+  "item.thealcoholicsmod.weed_leaf": "Cannabisblatt",
+  "item.thealcoholicsmod.cocaine_leaf": "Kokablatt",
+  "item.thealcoholicsmod.coca_seed": "Kokasamen",
+  "item.thealcoholicsmod.cocaine_raw": "Rohes Kokainpulver",
+  "item.thealcoholicsmod.knife": "Messer",
+  "item.thealcoholicsmod.canister_empty": "Leerer Kanister",
+  "item.thealcoholicsmod.canister_with_acid": "Kanister mit Säure",
+  "item.thealcoholicsmod.coca_dry": "Trockenes Koka",
+  "item.thealcoholicsmod.cutted_coca_leafs": "Geschnittenes Kokablatt",
+  "item.thealcoholicsmod.cocaine_with_paper": "Kokain zum Ziehen",
+  "item.thealcoholicsmod.crack": "Crack",
+  "item.thealcoholicsmod.crack_pipe": "Crack Pipe",
+  "item.thealcoholicsmod.crack_pipe_filled": "Pipe mit Crack",
+
+
+
+
+
+
+
+
+  "block.thealcoholicsmod.weed_package": "Cannabis Päckchen",
+  "block.thealcoholicsmod.cocaine_package": "Kokain Paket",
+  "block.thealcoholicsmod.weed_crop": "Hanf",
+  "block.thealcoholicsmod.weed_bush": "Cannabispflanze",
+  "block.thealcoholicsmod.coca_crop": "Kokapflanze",
+  "block.thealcoholicsmod.coca_bush": "Kokapflanze",
+
+
+  "itemGroup.alcoholicsmodTab": "Der Alkoholiker Mod"
+}

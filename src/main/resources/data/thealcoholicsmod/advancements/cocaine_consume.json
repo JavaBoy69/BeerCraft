@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "thealcoholicsmod:cocaine_with_paper"
+    },
+    "title": "High, but powerful !",
+    "description": "Consume some cocaine",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "thealcoholicsmod:cocaine_sniff",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "thealcoholicsmod:cocaine_with_paper"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

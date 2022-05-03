@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thealcoholicsmod:knife"
+    },
+    {
+      "item": "thealcoholicsmod:cocaine_leaf"
+    }
+
+  ],
+
+  "result": {
+    "item": "thealcoholicsmod:cutted_coca_leafs"
+
+  }
+}
