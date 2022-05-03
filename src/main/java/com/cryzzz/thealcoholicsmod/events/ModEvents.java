@@ -20,9 +20,8 @@ public class ModEvents {
     @SubscribeEvent
     public static void sendModInfoMessage (PlayerEvent.PlayerLoggedInEvent event){
         Player player = event.getPlayer();
-        String info = ChatFormatting.GREEN + "The Alcoholics Mod Version Alpha 1.3.1" +
-                " \n   - 1.18.1 Update" +
-                " \n - Advancements added " +
+        String info = ChatFormatting.GREEN + "The Alcoholics Mod Version Alpha 1.3.2" +
+                " \n   - 1.18.2 Update" +
                 " \n   - Stay High ";
         player.sendMessage(new TextComponent(info), player.getUUID());
 

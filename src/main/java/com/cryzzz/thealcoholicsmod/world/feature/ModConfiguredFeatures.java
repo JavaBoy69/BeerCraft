@@ -1,9 +1,11 @@
 package com.cryzzz.thealcoholicsmod.world.feature;
 
 import com.cryzzz.thealcoholicsmod.block.ModBlocks;
+import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
@@ -13,13 +15,13 @@ import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvi
 
 public class ModConfiguredFeatures {
 
-    public static final ConfiguredFeature<RandomPatchConfiguration, ?> WEED_BUSH_CONFIG = FeatureUtils.register("weed_bush",
-            Feature.FLOWER.configured(new RandomPatchConfiguration(16, 6, 2, () -> {return Feature.SIMPLE_BLOCK
-                    .configured(new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.WEED_BUSH.get()))).onlyWhenEmpty();})));
+    public static final Holder<? extends ConfiguredFeature<RandomPatchConfiguration, ?>> WEED_BUSH_CONFIG = FeatureUtils.register("weed_bush",
+            Feature.FLOWER, new RandomPatchConfiguration(16, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                    new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.WEED_BUSH.get())))));
 
-    public static final ConfiguredFeature<RandomPatchConfiguration, ?> COCA_PLANT_CONFIG = FeatureUtils.register("coca_bush",
-            Feature.FLOWER.configured(new RandomPatchConfiguration(8, 4, 2, () -> {return Feature.SIMPLE_BLOCK
-                    .configured(new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.COCA_BUSH.get()))).onlyWhenEmpty();})));
+    public static final Holder<? extends ConfiguredFeature<RandomPatchConfiguration, ?>> COCA_PLANT_CONFIG = FeatureUtils.register("coca_bush",
+            Feature.FLOWER, new RandomPatchConfiguration(8, 4, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                    new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.COCA_BUSH.get())))));
 
 
 
